@@ -38,6 +38,7 @@
 		9B33A5B319D5D6DE00FA98F1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33A5B219D5D6DE00FA98F1 /* MainViewController.m */; };
 		9B33A5B519D5D6DE00FA98F1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B33A5B419D5D6DE00FA98F1 /* MainViewController.xib */; };
 		9B33A5B919D5D6DE00FA98F1 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9B33A5B819D5D6DE00FA98F1 /* verify.sh */; };
+		9B33A5C019D5D7A600FA98F1 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 9B33A5BF19D5D7A600FA98F1 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		9B33A57B19D5D6DD00FA98F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9B33A57D19D5D6DD00FA98F1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9B33A57F19D5D6DD00FA98F1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		9B33A58319D5D6DD00FA98F1 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		9B33A58319D5D6DD00FA98F1 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
 		9B33A58519D5D6DD00FA98F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B33A58719D5D6DD00FA98F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B33A58919D5D6DD00FA98F1 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		9B33A58919D5D6DD00FA98F1 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		9B33A58A19D5D6DD00FA98F1 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		9B33A58F19D5D6DD00FA98F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9B33A59319D5D6DD00FA98F1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		9B33A5A719D5D6DD00FA98F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		9B33A5A919D5D6DE00FA98F1 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		9B33A5AB19D5D6DE00FA98F1 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		9B33A5AE19D5D6DE00FA98F1 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		9B33A5AE19D5D6DE00FA98F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		9B33A5AF19D5D6DE00FA98F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		9B33A5B119D5D6DE00FA98F1 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		9B33A5B119D5D6DE00FA98F1 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		9B33A5B219D5D6DE00FA98F1 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		9B33A5B419D5D6DE00FA98F1 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		9B33A5B719D5D6DE00FA98F1 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		9B33A5B719D5D6DE00FA98F1 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		9B33A5B819D5D6DE00FA98F1 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		9B33A5BF19D5D7A600FA98F1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 		9B33A58219D5D6DD00FA98F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9B33A5BF19D5D7A600FA98F1 /* www */,
 				9B33A58319D5D6DD00FA98F1 /* HelloWorld-Info.plist */,
 				9B33A58419D5D6DD00FA98F1 /* InfoPlist.strings */,
 				9B33A58719D5D6DD00FA98F1 /* main.m */,
@@ -329,6 +332,7 @@
 				9B33A5AC19D5D6DE00FA98F1 /* Cordova.plist in Resources */,
 				9B33A5B519D5D6DE00FA98F1 /* MainViewController.xib in Resources */,
 				9B33A5B919D5D6DE00FA98F1 /* verify.sh in Resources */,
+				9B33A5C019D5D7A600FA98F1 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
